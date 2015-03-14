@@ -1,0 +1,35 @@
+html {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-size: 16px; // 1rem = 16px
+  background: white;
+  color: #FF6600;
+  padding: 16px;
+}
+
+a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: blue;
+  padding: 1rem;
+}
+
+body {
+  text-align: center;
+  margin: 5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+img {
+  border-radius: 50px;
+}
