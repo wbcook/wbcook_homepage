@@ -1,34 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Tags -->
   <meta name="description" content="William Cook">
-  <meta name="keywords" content="william cook, web developer, html, css, javascript, professional">
+  <meta name="keywords" content="william cook, web developer, html, css, javascript, angularjs, professional">
   <meta name="author" content="William Cook">
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
-  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <header>
-    <a href="mailto:wbcook007@gmail.com" target="_blank">Email</a>
-    <a href="https://github.com/wbcook/wbcook_homepage" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/wbcook007" target="_blank">LinkedIn</a>
-  </header>
+  <div class="container">
 
-  <main>
-    
-    <h1>William Cook</h1>
-    <img src="images/william-cook.png">
-    <h2>Web Developer</h2>
-    <p>HTML, CSS, JavaScript</p>
+    <header class="container">
 
-  </main>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>William Cook</h1>
+        </div>
+      </div>
 
-  <footer>
-    <small> Copyright &copy 2015 William B. Cook </small>
-  </footer>
+    </header>
+
+    <main class="container">
+
+      <div class="row">
+        <div class="col-xs-8">
+          <h2>Check out my GitHub</h2>
+          <a href="mailto:wbcook007@gmail.com" target="_blank">Email</a>
+          <a href="https://github.com/wbcook/wbcook_homepage" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/wbcook007" target="_blank">LinkedIn</a>
+        </div>
+
+        <div class = "col-xs-3 col-sm-offset-1 hidden-xs">
+          <img src="images/william-cook.png" alt="William Cook">
+        </div>
+
+        <div class = "col-xs-3 col-sm-offset-1 visible-xs">
+          <img src="images/william-cook-xs.png" alt="William Cook">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3 col-xs-6">
+          <h3>HTML</h3>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <h3>CSS</h3>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <h3>JavaScript</h3>
+        </div>
+        <div class="col-sm-3 col-xs-6">
+          <h3>AngularJS</h3>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <small> Copyright &copy 2015 William B. Cook </small>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </div>
 
 </body>
 
